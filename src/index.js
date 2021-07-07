@@ -2,7 +2,9 @@ import './index.css'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import App from './App.jsx'
+
 ReactDOM.render(
-    <h1>Devyx Company</h1>,
+    <App />,
     document.getElementById('root')
 )
