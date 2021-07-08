@@ -12,6 +12,7 @@ import Pai from './components/comunicacao/direta/Pai'
 import Super from './components/comunicacao/indireta/Super'
 import Input from './components/form/Input'
 import Contador from './components/contador/Contador'
+import Mega from './components/mega/Mega'
 
 function App(props) {
     return (
@@ -19,6 +20,9 @@ function App(props) {
             <h1>Fundamentos React</h1>
             <div className="Cards">
 
+            <Card titulo="#11 - Mega" color="#483D8B">
+                <Mega qtdeNumero={8}></Mega>
+            </Card>
             <Card titulo="#10 - Contador" color="#4682B4">
                 <Contador passo={10} valor={100}></Contador>
             </Card>
